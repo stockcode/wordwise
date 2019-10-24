@@ -1,0 +1,31 @@
+{
+  "name": "Voracious",
+  "version": "0.1.2",
+  "description": "Extension to lookup tough words",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanchitgn/voracious"
+  },
+  "author": "Sanchit Nevgi <sanchit.nevgi@gmail.com>",
+  "scripts": {
+    "start": "webpack -w",
+    "build": "webpack"
+  },
+  "bugs": {
+    "url": "https://github.com/sanchitgn/voracious/issues"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-preset-env": "^1.2.1",
+    "copy-webpack-plugin": "^4.0.1",
+    "json-loader": "^0.5.4",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "findandreplacedomtext": "^0.4.6",
+    "jquery": "^3.4.1",
+    "lodash": "^4.17.15"
+  }
+}
